@@ -1,0 +1,147 @@
+.head__block {
+  background: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  height: 160px;
+  width: 100%;
+}
+
+.head__text {
+  font-size: 45px;
+}
+
+.navbar__block {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.navbar__link {
+  display: block;
+  max-width: 200px;
+}
+
+.navbar__link > a {
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: unset;
+}
+
+.navbar__link > a:hover {
+  text-decoration: underline;
+  color: #cacaca;
+}
+
+.navbar__link > a:active {
+  color: #9c9c9c;
+}
+
+.about__block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__text{
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+/*film*/
+
+.films__container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.film__block {
+  margin: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 222px;
+  background: radial-gradient(
+    circle at 48% 52%,
+    rgba(210, 211, 211, 0.47) 0%,
+    rgba(178, 181, 180, 0.48) 14%,
+    rgba(255, 255, 255, 0.61) 98%
+  );
+}
+
+.film__block:hover {
+  background: radial-gradient(
+    circle at 48% 52%,
+    rgba(210, 211, 211, 0.47) 0%,
+    rgba(113, 115, 114, 0.48) 37%,
+    rgba(195, 193, 193, 0.61) 98%
+  );
+}
+
+.film__img {
+  width: 200px;
+  height: 290px;
+  padding: 10px;
+}
+.film__head {
+  font-size: 20px;
+}
+
+.film__info {
+  margin-bottom: 5px;
+  color: rgb(51, 48, 48);
+}
+
+/* Search Block */
+
+.search__block {
+  width: 600px;
+  margin: auto;
+  margin-top: 30px;
+}
+input {
+  padding: 4px 10px;
+  border: 0;
+  font-size: 16px;
+}
+.search {
+  width: 100%;
+}
+
+.failed__search {
+  color: rgb(175, 166, 166);
+  margin: 100px;
+}
+
+/* Film ID */
+
+.filmId__block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.filmId__img {
+  width: 250px;
+}
+
+.info__text {
+  font-size: 1.2rem;
+  padding: 10px;
+  border: 1px solid black;
+  width: 450px;
+  border-bottom: none;
+}
+
+.info__text__last {
+  border-bottom: 1px solid black;
+}
+
+.info__text__block {
+  margin-top: 30px;
+}
